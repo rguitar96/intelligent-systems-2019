@@ -1,0 +1,279 @@
+{
+  "_comment": "Empty ontology for WebVOWL Editor [Additional Information added by WebVOWL Exporter Version: 1.1.5] [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://visualdataweb.org/newOntology/",
+    "title": {
+      "en": "New ontology"
+    },
+    "description": {
+      "en": "New ontology description"
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.77",
+      "translation": [
+        326.61,
+        59.13
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class8",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class2",
+      "iri": "http://visualdataweb.org/newOntology/Researcher_Group",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Research Group",
+      "pos": [
+        562.8,
+        847.37
+      ]
+    },
+    {
+      "id": "Class3",
+      "iri": "http://visualdataweb.org/newOntology/Internal_Meeting",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Internal Meeting",
+      "pos": [
+        500.87,
+        511.32
+      ]
+    },
+    {
+      "id": "Class4",
+      "iri": "http://visualdataweb.org/newOntology/Meeting",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Meeting",
+      "pos": [
+        854.87,
+        543.04
+      ]
+    },
+    {
+      "id": "Class5",
+      "iri": "http://visualdataweb.org/newOntology/University_Group",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "University Room",
+      "pos": [
+        537.84,
+        166.16
+      ]
+    },
+    {
+      "id": "Class6",
+      "iri": "http://visualdataweb.org/newOntology/Room",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Room",
+      "pos": [
+        884.15,
+        191.66
+      ]
+    },
+    {
+      "id": "Class8",
+      "iri": "http://visualdataweb.org/newOntology/Date",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Date",
+      "pos": [
+        1194.24,
+        548.79
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty1",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty4",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty6",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty7",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty10",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "objectProperty11",
+      "type": "owl:ObjectProperty"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty1",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty1",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class5",
+      "range": "Class6",
+      "pos": [
+        711,
+        178.91
+      ]
+    },
+    {
+      "id": "objectProperty4",
+      "iri": "http://visualdataweb.org/newOntology/objectProperty4",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class3",
+      "range": "Class4",
+      "pos": [
+        677.87,
+        527.18
+      ]
+    },
+    {
+      "id": "objectProperty6",
+      "iri": "http://visualdataweb.org/newOntology/holds",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "holds",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class2",
+      "range": "Class3",
+      "pos": [
+        531.83,
+        679.34
+      ]
+    },
+    {
+      "id": "objectProperty7",
+      "iri": "http://visualdataweb.org/newOntology/isSetIn",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "isSetIn",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class3",
+      "range": "Class5",
+      "pos": [
+        519.35,
+        338.74
+      ]
+    },
+    {
+      "id": "objectProperty10",
+      "iri": "http://visualdataweb.org/newOntology/takesPlaceIn",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "takesPlaceIn",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class4",
+      "range": "Class8",
+      "pos": [
+        1024.55,
+        545.91
+      ]
+    },
+    {
+      "id": "objectProperty11",
+      "iri": "http://visualdataweb.org/newOntology/::room:isSetIn",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "isSetIn",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class4",
+      "range": "Class6",
+      "pos": [
+        869.51,
+        367.35
+      ]
+    }
+  ]
+}
