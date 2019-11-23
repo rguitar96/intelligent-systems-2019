@@ -20,8 +20,8 @@
     "global": {
       "zoom": "0.74",
       "translation": [
-        681.57,
-        210.75
+        428.57,
+        148.75
       ],
       "paused": false
     },
@@ -150,6 +150,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "integer",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         578.33,
         132.11
@@ -194,12 +197,12 @@
     },
     {
       "id": "NodeId7",
-      "iri": "http://www.w3.org/2001/XMLSchema#integer",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
-      "label": "integer",
+      "label": "2018",
       "pos": [
         183.28,
-        603.23
+        605.93
       ],
       "pinned": true
     },
@@ -208,6 +211,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "16.4",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         279.64,
         607.16
@@ -230,6 +236,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "2019",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         477.28,
         553.37
@@ -241,6 +250,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "14.3",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         573.77,
         552.24
@@ -304,6 +316,9 @@
       "iri": "http://visualdataweb.org/newOntology/year",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "year",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class2",
       "range": "NodeId3",
       "pos": [
@@ -316,6 +331,9 @@
       "iri": "http://visualdataweb.org/newOntology/rate",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "rate",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class2",
       "range": "NodeId4",
       "pos": [
@@ -358,6 +376,9 @@
       "iri": "http://visualdataweb.org/newOntology/instanceOf",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "instanceOf",
+      "attributes": [
+        "object"
+      ],
       "domain": "Class6",
       "range": "Class2",
       "pos": [
@@ -370,11 +391,14 @@
       "iri": "http://visualdataweb.org/newOntology/year",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "year",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class6",
       "range": "NodeId7",
       "pos": [
-        208.71,
-        551.26
+        208.84,
+        552.69
       ]
     },
     {
@@ -382,6 +406,9 @@
       "iri": "http://visualdataweb.org/newOntology/value",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "value",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class6",
       "range": "NodeId8",
       "pos": [
@@ -394,6 +421,9 @@
       "iri": "http://visualdataweb.org/newOntology/value",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "value",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class9",
       "range": "NodeId10",
       "pos": [
@@ -406,6 +436,9 @@
       "iri": "http://visualdataweb.org/newOntology/year",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "year",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class9",
       "range": "NodeId11",
       "pos": [
