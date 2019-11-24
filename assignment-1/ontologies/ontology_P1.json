@@ -20,8 +20,8 @@
     "global": {
       "zoom": "0.80",
       "translation": [
-        -68.56,
-        -76.74
+        -163.56,
+        11.26
       ],
       "paused": false
     },
@@ -90,10 +90,6 @@
       "type": "owl:Class"
     },
     {
-      "id": "Class4",
-      "type": "owl:Class"
-    },
-    {
       "id": "Class5",
       "type": "owl:Class"
     },
@@ -148,8 +144,8 @@
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "Student",
       "pos": [
-        1054.26,
-        503.98
+        998.01,
+        448.98
       ],
       "pinned": true
     },
@@ -159,19 +155,8 @@
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "Course",
       "pos": [
-        1214.05,
-        313.84
-      ],
-      "pinned": true
-    },
-    {
-      "id": "Class4",
-      "iri": "http://visualdataweb.org/newOntology/Italian_Cours",
-      "baseIri": "http://visualdataweb.org/newOntology/",
-      "label": "Italian Course",
-      "pos": [
-        1314.05,
-        499.05
+        1269.05,
+        267.59
       ],
       "pinned": true
     },
@@ -181,8 +166,8 @@
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "Peter",
       "pos": [
-        1069.47,
-        1020.71
+        996.97,
+        793.21
       ],
       "pinned": true
     },
@@ -192,8 +177,8 @@
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "Susan",
       "pos": [
-        1428.69,
-        1089.06
+        1299.94,
+        932.81
       ],
       "pinned": true
     },
@@ -201,10 +186,10 @@
       "id": "Class7",
       "iri": "http://visualdataweb.org/newOntology/Italian_Course_1",
       "baseIri": "http://visualdataweb.org/newOntology/",
-      "label": "Italian Course 1",
+      "label": "Italian Course",
       "pos": [
-        1247.94,
-        706.38
+        1286.69,
+        615.13
       ],
       "pinned": true
     },
@@ -214,8 +199,8 @@
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "Mark",
       "pos": [
-        1566.74,
-        400.24
+        1605.49,
+        340.24
       ],
       "pinned": true
     },
@@ -225,8 +210,8 @@
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "Mark 1",
       "pos": [
-        1398.37,
-        747.43
+        1444.62,
+        663.68
       ],
       "pinned": true
     },
@@ -236,8 +221,8 @@
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "Mark 2",
       "pos": [
-        1582.94,
-        765.84
+        1635.44,
+        665.84
       ],
       "pinned": true
     },
@@ -246,9 +231,12 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "high",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
-        1595.9,
-        921.46
+        1644.65,
+        795.21
       ],
       "pinned": true
     },
@@ -257,9 +245,12 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "low",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
-        1417.21,
-        906.64
+        1398.46,
+        777.89
       ],
       "pinned": true
     },
@@ -268,6 +259,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "string",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         1511.78,
         242.34
@@ -285,19 +279,11 @@
       "type": "owl:ObjectProperty"
     },
     {
-      "id": "objectProperty3",
-      "type": "rdfs:subClassOf"
-    },
-    {
       "id": "objectProperty4",
       "type": "owl:ObjectProperty"
     },
     {
       "id": "objectProperty5",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "objectProperty6",
       "type": "owl:ObjectProperty"
     },
     {
@@ -339,6 +325,10 @@
     {
       "id": "datatypeProperty16",
       "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "objectProperty17",
+      "type": "owl:ObjectProperty"
     }
   ],
   "propertyAttribute": [
@@ -350,8 +340,8 @@
       "domain": "Class2",
       "range": "Class1",
       "pos": [
-        1036.84,
-        376.54
+        1008.72,
+        349.05
       ]
     },
     {
@@ -365,20 +355,8 @@
       "domain": "Class2",
       "range": "Class3",
       "pos": [
-        1134.15,
-        408.91
-      ]
-    },
-    {
-      "id": "objectProperty3",
-      "iri": "http://visualdataweb.org/newOntology/objectProperty3",
-      "baseIri": "http://visualdataweb.org/newOntology/",
-      "label": "Subclass of",
-      "domain": "Class4",
-      "range": "Class3",
-      "pos": [
-        1264.05,
-        406.45
+        1133.53,
+        358.28
       ]
     },
     {
@@ -386,11 +364,14 @@
       "iri": "http://visualdataweb.org/newOntology/instanceOfStudent",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "instanceOf",
+      "attributes": [
+        "object"
+      ],
       "domain": "Class5",
       "range": "Class2",
       "pos": [
-        1061.86,
-        762.35
+        997.49,
+        621.1
       ]
     },
     {
@@ -404,20 +385,8 @@
       "domain": "Class6",
       "range": "Class2",
       "pos": [
-        1241.47,
-        796.52
-      ]
-    },
-    {
-      "id": "objectProperty6",
-      "iri": "http://visualdataweb.org/newOntology/instanceOfCours",
-      "baseIri": "http://visualdataweb.org/newOntology/",
-      "label": "instanceOf",
-      "domain": "Class7",
-      "range": "Class4",
-      "pos": [
-        1281,
-        602.71
+        1148.98,
+        690.9
       ]
     },
     {
@@ -431,8 +400,8 @@
       "domain": "Class3",
       "range": "Class8",
       "pos": [
-        1390.39,
-        357.04
+        1437.27,
+        303.91
       ]
     },
     {
@@ -440,11 +409,14 @@
       "iri": "http://visualdataweb.org/newOntology/instanceOfMark",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "instanceOf",
+      "attributes": [
+        "object"
+      ],
       "domain": "Class9",
       "range": "Class8",
       "pos": [
-        1482.55,
-        573.84
+        1525.05,
+        501.96
       ]
     },
     {
@@ -452,11 +424,14 @@
       "iri": "http://visualdataweb.org/newOntology/instanceOfM",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "instanceOf",
+      "attributes": [
+        "object"
+      ],
       "domain": "Class10",
       "range": "Class8",
       "pos": [
-        1574.84,
-        583.04
+        1620.47,
+        503.04
       ]
     },
     {
@@ -470,8 +445,8 @@
       "domain": "Class6",
       "range": "Class10",
       "pos": [
-        1505.82,
-        927.45
+        1467.69,
+        799.33
       ]
     },
     {
@@ -485,8 +460,8 @@
       "domain": "Class6",
       "range": "Class7",
       "pos": [
-        1338.32,
-        897.72
+        1293.32,
+        773.97
       ]
     },
     {
@@ -500,8 +475,8 @@
       "domain": "Class5",
       "range": "Class7",
       "pos": [
-        1158.71,
-        863.55
+        1141.83,
+        704.17
       ]
     },
     {
@@ -515,8 +490,8 @@
       "domain": "Class5",
       "range": "Class9",
       "pos": [
-        1233.92,
-        884.07
+        1220.8,
+        728.44
       ]
     },
     {
@@ -524,11 +499,14 @@
       "iri": "http://visualdataweb.org/newOntology/grade",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "grade",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class8",
       "range": "NodeId11",
       "pos": [
-        1532.78,
-        302.68
+        1546.13,
+        278.23
       ]
     },
     {
@@ -536,11 +514,14 @@
       "iri": "http://visualdataweb.org/newOntology/grade",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "grade",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class9",
       "range": "NodeId12",
       "pos": [
-        1410.13,
-        846.86
+        1414.19,
+        738.96
       ]
     },
     {
@@ -548,11 +529,29 @@
       "iri": "http://visualdataweb.org/newOntology/grade",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "grade",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class10",
       "range": "NodeId13",
       "pos": [
-        1591.08,
-        863.56
+        1641.46,
+        750.46
+      ]
+    },
+    {
+      "id": "objectProperty17",
+      "iri": "http://visualdataweb.org/newOntology/instanceOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "instanceOf",
+      "attributes": [
+        "object"
+      ],
+      "domain": "Class7",
+      "range": "Class3",
+      "pos": [
+        1277.87,
+        441.36
       ]
     }
   ]
