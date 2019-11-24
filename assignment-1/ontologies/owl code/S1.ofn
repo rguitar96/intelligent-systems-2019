@@ -1,0 +1,113 @@
+Prefix(:=<http://webprotege.stanford.edu/project/QYjPehInj94aQvKpLgDwV#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://webprotege.stanford.edu/project/QYjPehInj94aQvKpLgDwV>
+
+Declaration(Class(<http://webprotege.stanford.edu/R7SwgYpr3PnzbuxZhOfnGfv>))
+Declaration(Class(<http://webprotege.stanford.edu/R7qv6W1rjQcOcnQBlYTx6UC>))
+Declaration(Class(<http://webprotege.stanford.edu/R9JFoxF3IdrMFmPufG3qr3e>))
+Declaration(Class(<http://webprotege.stanford.edu/RCxV4AntLRRAcm6ckkUk6Ug>))
+Declaration(Class(<http://webprotege.stanford.edu/RDnXPB5XnQQ6VY07xJWz9lE>))
+Declaration(Class(<http://webprotege.stanford.edu/RDxV8Z36F7wjSNHH0KUDF2x>))
+Declaration(Class(<http://webprotege.stanford.edu/RYpu2wKCPE9il5adM62S1d>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R5prt0qvygng0zjBAw0D0g>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R8zRM6PGd18remJBIyZcNuH>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RBx4wYdeqUbryEZRZeneTV1>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RtfcDiiVMBj0fzLSKEgTU9>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7QHapZtfOlMSrc5cJHJhkD>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCD56ZENc3jG4x6mLn2morh>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RZqKt1xjCdtil5zt8X2exu>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://webprotege.stanford.edu/R5prt0qvygng0zjBAw0D0g> (receives)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R5prt0qvygng0zjBAw0D0g> "receives")
+
+# Object Property: <http://webprotege.stanford.edu/R8zRM6PGd18remJBIyZcNuH> (works for)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8zRM6PGd18remJBIyZcNuH> "works for")
+
+# Object Property: <http://webprotege.stanford.edu/RBx4wYdeqUbryEZRZeneTV1> (has)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBx4wYdeqUbryEZRZeneTV1> "has")
+
+# Object Property: <http://webprotege.stanford.edu/RtfcDiiVMBj0fzLSKEgTU9> (issues)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RtfcDiiVMBj0fzLSKEgTU9> "issues")
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://webprotege.stanford.edu/R7QHapZtfOlMSrc5cJHJhkD> (age)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7QHapZtfOlMSrc5cJHJhkD> "age")
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7QHapZtfOlMSrc5cJHJhkD> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7QHapZtfOlMSrc5cJHJhkD> <http://webprotege.stanford.edu/RDxV8Z36F7wjSNHH0KUDF2x>)
+
+# Data Property: <http://webprotege.stanford.edu/RCD56ZENc3jG4x6mLn2morh> (full name)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCD56ZENc3jG4x6mLn2morh> "full name")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCD56ZENc3jG4x6mLn2morh> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCD56ZENc3jG4x6mLn2morh> <http://webprotege.stanford.edu/RDxV8Z36F7wjSNHH0KUDF2x>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCD56ZENc3jG4x6mLn2morh> <http://webprotege.stanford.edu/RYpu2wKCPE9il5adM62S1d>)
+
+# Data Property: <http://webprotege.stanford.edu/RZqKt1xjCdtil5zt8X2exu> (date)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RZqKt1xjCdtil5zt8X2exu> "date")
+SubDataPropertyOf(<http://webprotege.stanford.edu/RZqKt1xjCdtil5zt8X2exu> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RZqKt1xjCdtil5zt8X2exu> <http://webprotege.stanford.edu/R9JFoxF3IdrMFmPufG3qr3e>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://webprotege.stanford.edu/R7SwgYpr3PnzbuxZhOfnGfv> (Buyer)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7SwgYpr3PnzbuxZhOfnGfv> "Buyer")
+SubClassOf(<http://webprotege.stanford.edu/R7SwgYpr3PnzbuxZhOfnGfv> <http://webprotege.stanford.edu/RDxV8Z36F7wjSNHH0KUDF2x>)
+
+# Class: <http://webprotege.stanford.edu/R7qv6W1rjQcOcnQBlYTx6UC> (Invoice)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7qv6W1rjQcOcnQBlYTx6UC> "Invoice")
+SubClassOf(<http://webprotege.stanford.edu/R7qv6W1rjQcOcnQBlYTx6UC> <http://webprotege.stanford.edu/RDnXPB5XnQQ6VY07xJWz9lE>)
+SubClassOf(<http://webprotege.stanford.edu/R7qv6W1rjQcOcnQBlYTx6UC> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R5prt0qvygng0zjBAw0D0g> <http://webprotege.stanford.edu/R7SwgYpr3PnzbuxZhOfnGfv>))
+
+# Class: <http://webprotege.stanford.edu/R9JFoxF3IdrMFmPufG3qr3e> (Document)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9JFoxF3IdrMFmPufG3qr3e> "Document")
+
+# Class: <http://webprotege.stanford.edu/RCxV4AntLRRAcm6ckkUk6Ug> (Seller)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCxV4AntLRRAcm6ckkUk6Ug> "Seller")
+SubClassOf(<http://webprotege.stanford.edu/RCxV4AntLRRAcm6ckkUk6Ug> <http://webprotege.stanford.edu/RDxV8Z36F7wjSNHH0KUDF2x>)
+SubClassOf(<http://webprotege.stanford.edu/RCxV4AntLRRAcm6ckkUk6Ug> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R8zRM6PGd18remJBIyZcNuH> <http://webprotege.stanford.edu/RYpu2wKCPE9il5adM62S1d>))
+SubClassOf(<http://webprotege.stanford.edu/RCxV4AntLRRAcm6ckkUk6Ug> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RtfcDiiVMBj0fzLSKEgTU9> <http://webprotege.stanford.edu/R7qv6W1rjQcOcnQBlYTx6UC>))
+
+# Class: <http://webprotege.stanford.edu/RDnXPB5XnQQ6VY07xJWz9lE> (Commercial Document)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDnXPB5XnQQ6VY07xJWz9lE> "Commercial Document")
+SubClassOf(<http://webprotege.stanford.edu/RDnXPB5XnQQ6VY07xJWz9lE> <http://webprotege.stanford.edu/R9JFoxF3IdrMFmPufG3qr3e>)
+
+# Class: <http://webprotege.stanford.edu/RDxV8Z36F7wjSNHH0KUDF2x> (Person)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDxV8Z36F7wjSNHH0KUDF2x> "Person")
+
+# Class: <http://webprotege.stanford.edu/RYpu2wKCPE9il5adM62S1d> (Company)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RYpu2wKCPE9il5adM62S1d> "Company")
+SubClassOf(<http://webprotege.stanford.edu/RYpu2wKCPE9il5adM62S1d> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RBx4wYdeqUbryEZRZeneTV1> <http://webprotege.stanford.edu/RDnXPB5XnQQ6VY07xJWz9lE>))
+
+
+)
