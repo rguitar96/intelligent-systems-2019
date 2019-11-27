@@ -3,13 +3,15 @@ Repo for Intelligent Systems homework
 
 ## Requirement
 
-####Part 1
+###Part 1
 
-<img src="/Users/feynman/Library/Application Support/typora-user-images/image-20191115112850698.png" alt="image-20191115112850698" style="zoom:30%;" align=left/>
+<img src="https://i.imgur.com/vj0AuMM.png" style="zoom:25%;" align=left/>
+
+
 
 #### Part 2
 
-<img src="/Users/feynman/Library/Application Support/typora-user-images/image-20191115120220417.png" alt="image-20191115120220417" style="zoom:25%;" align=left/>
+<img src="https://i.imgur.com/ZUReULw.png" style="zoom:25%;"/>
 
 ## Have Done
 
@@ -35,6 +37,8 @@ Repo for Intelligent Systems homework
 
 S1, P1, P2, P3, S7, S9, Education (.json produced by WebOWL)
 
+[WebOWL](http://www.visualdataweb.de/webvowl/)
+
 
 
 ## List To Do
@@ -43,7 +47,9 @@ S1, P1, P2, P3, S7, S9, Education (.json produced by WebOWL)
 
 - Functional representation
 
-  <img src="/Users/feynman/Desktop/Screen Shot 2019-11-27 at 3.43.42 PM.png" alt="Screen Shot 2019-11-27 at 3.43.42 PM" style="zoom:15%;" align=left />
+  <img src="https://i.imgur.com/t7OAa97.png" style="zoom:20%;" align=left />
+
+  
 
 - Part2.task B (reuse existed ontology to connect ours)
 
