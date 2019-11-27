@@ -3,9 +3,7 @@ Repo for Intelligent Systems homework
 
 ## Requirement
 
-
-
-###Part 1
+#### Part 1
 
 <img src="https://i.imgur.com/vj0AuMM.png=50x50" width="400;" />
 
@@ -19,7 +17,7 @@ Repo for Intelligent Systems homework
 
 ## Have Done
 
-###WebProtege
+#### WebProtege
 
 ######	(include owl code)
 
@@ -37,7 +35,7 @@ Repo for Intelligent Systems homework
 
 [Education](https://webprotege.stanford.edu/#projects/41d4742f-efed-45fa-b0bb-1ed7ed7da0b8/edit/Classes)
 
-###WebOWL
+####WebOWL
 
 S1, P1, P2, P3, S7, S9, Education (.json produced by WebOWL)
 
@@ -61,8 +59,6 @@ S1, P1, P2, P3, S7, S9, Education (.json produced by WebOWL)
   - <https://www.bbc.co.uk/ontologies/curriculum>
   - <http://vocab.org/aiiso/schema>
   - <http://www.cs.umd.edu/projects/plus/SHOE/onts/univ1.0.html>
-
 - Report(explain)
-
 - Questionnaire(individual work after upload)
 
