@@ -3,15 +3,19 @@ Repo for Intelligent Systems homework
 
 ## Requirement
 
+
+
 ###Part 1
 
-<img src="https://i.imgur.com/vj0AuMM.png" style="zoom:25%;" align=left/>
+<img src="https://i.imgur.com/vj0AuMM.png=50x50" width="400;" />
+
+
 
 
 
 #### Part 2
 
-<img src="https://i.imgur.com/ZUReULw.png" style="zoom:25%;"/>
+<img src="https://i.imgur.com/ZUReULw.png" width="500;"/>
 
 ## Have Done
 
@@ -47,11 +51,11 @@ S1, P1, P2, P3, S7, S9, Education (.json produced by WebOWL)
 
 - Functional representation
 
-  <img src="https://i.imgur.com/t7OAa97.png" style="zoom:20%;" align=left />
+  <img src="https://i.imgur.com/t7OAa97.png" width="400;" align=left />
 
   
 
-- Part2.task B (reuse existed ontology to connect ours)
+- Part2.Task B (reuse existed ontology to connect ours)
 
   - <https://2018.eswc-conferences.org/files/posters-demos/paper_246.pdf>
   - <https://www.bbc.co.uk/ontologies/curriculum>
