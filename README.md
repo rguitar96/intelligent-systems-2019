@@ -35,7 +35,7 @@ Repo for Intelligent Systems homework
 
 [Education](https://webprotege.stanford.edu/#projects/41d4742f-efed-45fa-b0bb-1ed7ed7da0b8/edit/Classes)
 
-####WebOWL
+#### WebOWL
 
 S1, P1, P2, P3, S7, S9, Education (.json produced by WebOWL)
 
@@ -47,18 +47,16 @@ S1, P1, P2, P3, S7, S9, Education (.json produced by WebOWL)
 
 
 
-- Functional representation
+1. Functional representation
 
-  <img src="https://i.imgur.com/t7OAa97.png" width="400;" align=left />
+<img src="https://i.imgur.com/t7OAa97.png" width="400;" align=left />
 
-  
+2. Part2.Task B (reuse existed ontology to connect ours)
+   - <https://2018.eswc-conferences.org/files/posters-demos/paper_246.pdf>
+   - <https://www.bbc.co.uk/ontologies/curriculum>
+   - <http://vocab.org/aiiso/schema>
+   - <http://www.cs.umd.edu/projects/plus/SHOE/onts/univ1.0.html>
 
-- Part2.Task B (reuse existed ontology to connect ours)
-
-  - <https://2018.eswc-conferences.org/files/posters-demos/paper_246.pdf>
-  - <https://www.bbc.co.uk/ontologies/curriculum>
-  - <http://vocab.org/aiiso/schema>
-  - <http://www.cs.umd.edu/projects/plus/SHOE/onts/univ1.0.html>
-- Report(explain)
-- Questionnaire(individual work after upload)
+3. Report(explain)
+4. Questionnaire(individual work after upload)
 
