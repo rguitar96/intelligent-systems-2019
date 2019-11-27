@@ -27,7 +27,7 @@ Repo for Intelligent Systems homework
 
 [P2](https://webprotege.stanford.edu/#projects/06471cdf-8a65-4c8c-81dc-a71815a09037/edit/Classes)
 
-[P3](https://webprotege.stanford.edu/#projects/06471cdf-8a65-4c8c-81dc-a71815a09037/edit/Classes)
+[P3](https://webprotege.stanford.edu/#projects/7e45f2e5-fed8-4a41-8b00-c6a13d7e6794/edit/Classes)
 
 [S6](https://webprotege.stanford.edu/#projects/dfec7708-494b-4206-ad6d-0abefe21896f/edit/Classes)
 
