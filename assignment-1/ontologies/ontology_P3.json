@@ -18,10 +18,10 @@
   "namespace": [],
   "settings": {
     "global": {
-      "zoom": "0.99",
+      "zoom": "0.83",
       "translation": [
-        333.05,
-        77.34
+        345.55,
+        122.26
       ],
       "paused": false
     },
@@ -108,6 +108,14 @@
     {
       "id": "NodeId16",
       "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId9",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "NodeId10",
+      "type": "rdfs:Datatype"
     }
   ],
   "classAttribute": [
@@ -148,7 +156,7 @@
       "id": "Class9",
       "iri": "http://visualdataweb.org/newOntology/Unemployment_1",
       "baseIri": "http://visualdataweb.org/newOntology/",
-      "label": "Unemployment1",
+      "label": "Unemployment Rate 1",
       "pos": [
         400.19,
         371.6
@@ -157,12 +165,9 @@
     },
     {
       "id": "NodeId12",
-      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
-      "label": "double",
-      "attributes": [
-        "datatype"
-      ],
+      "label": "string",
       "pos": [
         648.73,
         68.67
@@ -173,20 +178,18 @@
       "id": "NodeId13",
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
-      "label": "Trend",
-      "attributes": [
-        "datatype"
-      ],
+      "label": "string",
       "pos": [
-        645.57,
-        156.56
-      ]
+        647.22,
+        156.32
+      ],
+      "pinned": true
     },
     {
       "id": "NodeId15",
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
-      "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
-      "label": "Trend",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "dropping",
       "pos": [
         665.38,
         456.82
@@ -195,15 +198,37 @@
     },
     {
       "id": "NodeId16",
-      "iri": "http://www.w3.org/2001/XMLSchema#double",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
-      "label": "double",
+      "label": "high",
+      "pos": [
+        660.54,
+        322.75
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId9",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "string",
       "attributes": [
         "datatype"
       ],
       "pos": [
-        656.94,
-        313.14
+        -4.41,
+        69.93
+      ],
+      "pinned": true
+    },
+    {
+      "id": "NodeId10",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "baseIri": "http://www.w3.org/2001/XMLSchema#",
+      "label": "Spain",
+      "pos": [
+        22.85,
+        474.83
       ],
       "pinned": true
     }
@@ -240,6 +265,14 @@
     {
       "id": "datatypeProperty17",
       "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty9",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "datatypeProperty10",
+      "type": "owl:DatatypeProperty"
     }
   ],
   "propertyAttribute": [
@@ -270,7 +303,7 @@
       "range": "Class1",
       "pos": [
         95.88,
-        270.51
+        270.5
       ]
     },
     {
@@ -308,11 +341,14 @@
       "iri": "http://visualdataweb.org/newOntology/hasValue",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "hasValue",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class2",
       "range": "NodeId12",
       "pos": [
-        526.93,
-        114.13
+        527.83,
+        113.79
       ]
     },
     {
@@ -320,11 +356,14 @@
       "iri": "http://visualdataweb.org/newOntology/hasTrend",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "hasTrend",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class2",
       "range": "NodeId13",
       "pos": [
-        527.55,
-        161.32
+        528.63,
+        161.18
       ]
     },
     {
@@ -332,11 +371,14 @@
       "iri": "http://visualdataweb.org/newOntology/hasTrend",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "hasTrend",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class9",
       "range": "NodeId15",
       "pos": [
-        543.83,
-        417.76
+        541.03,
+        416.86
       ]
     },
     {
@@ -344,11 +386,38 @@
       "iri": "http://visualdataweb.org/newOntology/hasValue",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "hasValue",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class9",
       "range": "NodeId16",
       "pos": [
-        538.94,
-        340.01
+        544.44,
+        344.53
+      ]
+    },
+    {
+      "id": "datatypeProperty9",
+      "iri": "http://visualdataweb.org/newOntology/name",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "name",
+      "domain": "Class1",
+      "range": "NodeId9",
+      "pos": [
+        31.28,
+        106.18
+      ]
+    },
+    {
+      "id": "datatypeProperty10",
+      "iri": "http://visualdataweb.org/newOntology/name",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "name",
+      "domain": "Class5",
+      "range": "NodeId10",
+      "pos": [
+        49.93,
+        438.87
       ]
     }
   ]
