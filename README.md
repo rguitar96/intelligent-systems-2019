@@ -33,7 +33,7 @@ Repo for Intelligent Systems homework
 
 [S8](https://webprotege.stanford.edu/#projects/1403b9df-4803-4599-a04e-907f8b8451aa/edit/Classes)
 
-[Education](https://webprotege.stanford.edu/#projects/41d4742f-efed-45fa-b0bb-1ed7ed7da0b8/edit/Classes)
+[Education](https://webprotege.stanford.edu/#projects/c2b5bf2a-41c9-4f7e-8539-89340b01689b/edit/Classes)
 
 #### WebOWL
 
