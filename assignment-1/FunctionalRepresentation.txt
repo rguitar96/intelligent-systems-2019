@@ -1,0 +1,24 @@
+#S1
+Invoice(Commercial Document, Seller, Buyer)
+
+#S6
+Deal(Customers, Dealer, Car, Price)
+
+#S7
+Play(Actor, Character, Season)
+
+#S8
+SharedBicycle(SharedBicycleCompany, Tourist, Bicycle, PointOfInterest)
+
+#S9
+InternalMeeting(ResearchGroup, Date, Time, MeetingRoom)
+
+#P1
+Mark(Student, Course, Value)
+
+#P2
+WeightDiff(Person, Diet, Value, Trend)
+
+#P3
+Unemployment(Country, Value, Trend)
+
