@@ -25,7 +25,27 @@
     <!-- http://webprotege.stanford.edu/R7SeVQGB8XbsxGVvRtf6jEQ -->
 
     <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7SeVQGB8XbsxGVvRtf6jEQ">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7AbtTNA2jLgPFFcPqXw6Vz"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC2wBFiKALoXKheZ6PLgVAS"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCL5kFROyEX15Ew1HjtY3sb"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/RkGEJte37Fz1RXNktqIuTU"/>
         <rdfs:label>hasSister</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBTKjiZq2Y8fxvcLcoqh5L1 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBTKjiZq2Y8fxvcLcoqh5L1">
+        <rdfs:label>effects</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJLmGen5VudfIdkqCwpjck -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCJLmGen5VudfIdkqCwpjck">
+        <rdfs:label>isFollowed</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -57,10 +77,21 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/RBUXZQHGjEIWhQS6GwLed6a -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBUXZQHGjEIWhQS6GwLed6a">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBCBCtWNoFrSD4Qg6k0rnb9"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+        <rdfs:label>hasName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://webprotege.stanford.edu/RCckbodgZc7SL39FsnSlqrQ -->
 
     <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCckbodgZc7SL39FsnSlqrQ">
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RkGEJte37Fz1RXNktqIuTU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label>hasTrend</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -70,6 +101,7 @@
 
     <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDQOfqbgk3te6iXQCN5N7P4">
         <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RkGEJte37Fz1RXNktqIuTU"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
         <rdfs:label>hasValue</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -100,6 +132,12 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/RBCBCtWNoFrSD4Qg6k0rnb9">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R7SeVQGB8XbsxGVvRtf6jEQ"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBCBCtWNoFrSD4Qg6k0rnb9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RDVOU5pgSfUkXn0GJ6zxoOo"/>
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC2wBFiKALoXKheZ6PLgVAS"/>
             </owl:Restriction>
@@ -112,6 +150,12 @@
     <!-- http://webprotege.stanford.edu/RC2wBFiKALoXKheZ6PLgVAS -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RC2wBFiKALoXKheZ6PLgVAS">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCJLmGen5VudfIdkqCwpjck"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBCBCtWNoFrSD4Qg6k0rnb9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCouoQf86AlEUc8BftIlKFO"/>
@@ -135,6 +179,12 @@
     <!-- http://webprotege.stanford.edu/RkGEJte37Fz1RXNktqIuTU -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/RkGEJte37Fz1RXNktqIuTU">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBTKjiZq2Y8fxvcLcoqh5L1"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC2wBFiKALoXKheZ6PLgVAS"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label>WeightDiff</rdfs:label>
     </owl:Class>
     
@@ -168,7 +218,7 @@
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBCBCtWNoFrSD4Qg6k0rnb9"/>
         <webprotege:R7SeVQGB8XbsxGVvRtf6jEQ rdf:resource="http://webprotege.stanford.edu/RfqSbYu2MDwq3eGU78A8nb"/>
         <webprotege:RDVOU5pgSfUkXn0GJ6zxoOo rdf:resource="http://webprotege.stanford.edu/RpO8MmuQJiDYbTAaeU9rh2"/>
-        <rdfs:label>Kate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person1</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -177,6 +227,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBENxtZro3BvV6zauxbzKoE">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RCL5kFROyEX15Ew1HjtY3sb"/>
+        <webprotege:RCJLmGen5VudfIdkqCwpjck rdf:resource="http://webprotege.stanford.edu/RfqSbYu2MDwq3eGU78A8nb"/>
         <webprotege:RCouoQf86AlEUc8BftIlKFO rdf:resource="http://webprotege.stanford.edu/R86v0exxFb2X9QuLYmZOJvE"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dukan Diet 1</rdfs:label>
     </owl:NamedIndividual>
@@ -189,7 +240,8 @@
         <rdf:type rdf:resource="http://webprotege.stanford.edu/RBCBCtWNoFrSD4Qg6k0rnb9"/>
         <webprotege:R7SeVQGB8XbsxGVvRtf6jEQ rdf:resource="http://webprotege.stanford.edu/R8GQC7TG9VzgRUUBkBcTNw1"/>
         <webprotege:RDVOU5pgSfUkXn0GJ6zxoOo rdf:resource="http://webprotege.stanford.edu/RBENxtZro3BvV6zauxbzKoE"/>
-        <rdfs:label>KateSister</rdfs:label>
+        <webprotege:RBUXZQHGjEIWhQS6GwLed6a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kate&apos;s Sister</webprotege:RBUXZQHGjEIWhQS6GwLed6a>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person2</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -209,6 +261,7 @@
 
     <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RpO8MmuQJiDYbTAaeU9rh2">
         <rdf:type rdf:resource="http://webprotege.stanford.edu/R7AbtTNA2jLgPFFcPqXw6Vz"/>
+        <webprotege:RCJLmGen5VudfIdkqCwpjck rdf:resource="http://webprotege.stanford.edu/R8GQC7TG9VzgRUUBkBcTNw1"/>
         <webprotege:RCouoQf86AlEUc8BftIlKFO rdf:resource="http://webprotege.stanford.edu/Rolxnx1n0WX7P0gSFwyZbZ"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atkins Diet 1</rdfs:label>
     </owl:NamedIndividual>
