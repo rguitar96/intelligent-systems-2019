@@ -143,9 +143,9 @@
     },
     {
       "id": "Class5",
-      "iri": "http://visualdataweb.org/newOntology/Spain",
+      "iri": "http://visualdataweb.org/newOntology/Country1",
       "baseIri": "http://visualdataweb.org/newOntology/",
-      "label": "Spain",
+      "label": "Country1",
       "pos": [
         99.55,
         372.96
@@ -168,6 +168,9 @@
       "iri": "http://www.w3.org/2001/XMLSchema#string",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "string",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         648.73,
         68.67
@@ -179,6 +182,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2000/01/rdf-schema#",
       "label": "string",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         647.22,
         156.32
@@ -190,6 +196,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "dropping",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         665.38,
         456.82
@@ -201,6 +210,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "high",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         660.54,
         322.75
@@ -226,6 +238,9 @@
       "iri": "http://www.w3.org/2000/01/rdf-schema#Datatype",
       "baseIri": "http://www.w3.org/2001/XMLSchema#",
       "label": "Spain",
+      "attributes": [
+        "datatype"
+      ],
       "pos": [
         22.85,
         474.83
@@ -401,6 +416,9 @@
       "iri": "http://visualdataweb.org/newOntology/name",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "name",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class1",
       "range": "NodeId9",
       "pos": [
@@ -413,6 +431,9 @@
       "iri": "http://visualdataweb.org/newOntology/name",
       "baseIri": "http://visualdataweb.org/newOntology/",
       "label": "name",
+      "attributes": [
+        "datatype"
+      ],
       "domain": "Class5",
       "range": "NodeId10",
       "pos": [
